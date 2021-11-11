@@ -8,7 +8,7 @@ const app = express();
 
 
 const mongoose = require('mongoose');
-const dev_db_url = 'mongodb://localhost/tc-mongo-homework';
+const dev_db_url = 'mongodb+srv://admin:admin123456@tc-mongoose.ihegl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const mongoDB = process.env.MONGODB_URI || dev_db_url;
 
 const dbOptions = { useUnifiedTopology: true, useNewUrlParser: true};
